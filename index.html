@@ -11,132 +11,169 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <style>
-      /* Make the image fully responsive */
-      .carousel-inner img {
-        width: 100%;
-        height: 500px;
-      }
-    </style>
   </head>
   <body>
+    <img class="img-fluid" src="assets/images/bnr.png" alt="Chania" />
     <!--navbar-->
-    <div class="container-fluid mt-2">
-      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#">RUMPI | 流矛頁慰</a>
 
-        <!-- Toggler/collapsibe Button -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#collapsibleNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+      <!-- <a class="navbar-brand" href="#">RUMPI | 流矛頁慰</a> -->
 
-        <!-- Navbar links -->
-        <!-- <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Coffee</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Taichan</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-          </ul>
-        </div> -->
-      </nav>
-    </div>
-    <!-- tutup navbar-->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!-- Banner Slide show-->
-    <div class="container-fluid">
-      <div id="demo" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-          <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reserve</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
         </ul>
-
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/images/tcsld1.jpg" />
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/kpSld1.jpg" />
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/ktSld1.jpg" />
-          </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
       </div>
-    </div>
-    <br />
-    <!--  tutup Banner Slide show-->
+    </nav>
 
-    <!--about us-->
-
-    <div class="container mt-2">
-      <center><h1>About Us</h1></center>
-      <hr width="100%" />
-      <div class="row">
-        <div class="col-6">Coffee</div>
-        <div class="col-6">Taichan</div>
-      </div>
-    </div>
-
-    <!-- tutup about us-->
+    <!-- tutup navbar-->
 
     <!--Menu-->
 
-    <div class="container mt-2">
+    <div class="container-fluid mt-2">
       <center><h1>Menu</h1></center>
-      <hr width="100%" />
-      <div class="row">
-        <div class="col-6">Coffee</div>
-        <div class="col-6">Taichan</div>
+
+      <div class="card-group">
+        <div class="card">
+          <div class="card-body text-center">
+            <center>
+              <img
+                src="assets/images/logotctrs.png"
+                width="50%"
+                height="50%"
+                alt=""
+              />
+            </center>
+
+            <div class="card">
+              <div class="card-body text-center">
+                <p class="card-text"><b>Product Coffee</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body text-center">
+            <center>
+              <img
+                src="assets/images/logotctrs.png"
+                width="50%"
+                height="50%"
+                alt=""
+              />
+            </center>
+            <div class="card">
+              <div class="card-body text-center">
+                <p class="card-text"><b>Product Taichan</b></p>
+                <hr width="50%" />
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-outline-light text-dark btn-block"
+                  data-toggle="modal"
+                  data-target="#tcPaha"
+                >
+                  Taichan Kulit ---------------- 20
+                </button>
+                <p class="card-text">Taichan Kulit ---------- 20k</p>
+                <p class="card-text">Taichan dada ---------- 20k</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
     <!-- tutup Menu-->
 
-    <!--Footer-->
+    <!--about us-->
+
     <div class="container-fluid mt-2">
-      <div class="card-group">
-        <div class="card bg-dark">
-          <div class="card-body text-center">
-            <p class="card-text">Some text inside the first card</p>
-          </div>
+      <center><h1>Location</h1></center>
+      <hr width="100%" />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.6583815845006!2d107.0259885845304!3d-6.308533019809236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6991980eeb9789%3A0x9e8d62fd01f7f186!2sRUMPI%20TALK!5e0!3m2!1sid!2sid!4v1623853993495!5m2!1sid!2sid"
+        width="100%"
+        height="600"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+
+    <!-- tutup about us-->
+
+    <!--Footer-->
+    <div class="mt-2">
+      <div class="card bg-dark">
+        <div class="card-body text-center">
+          <p class="card-text" style="color: white">
+            © Copyright 2021 RumpiTalk | All Right Reserved | Design by Agus
+            Yogandi
+          </p>
         </div>
-        <div class="card bg-dark">
-          <div class="card-body text-center">
-            <p class="card-text">Some text inside the second card</p>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-body bg-secondary">hahah</div>
       </div>
     </div>
+
     <!--tutup Footer-->
+
+    <!--modal taichan paha-->
+
+    <!-- The Modal -->
+    <div class="modal" id="tcPaha">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Taichan Paha</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <img
+              class="img-fluid"
+              src="assets/images/tcsld1.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-center">
+              <p>
+                Di buat dengan daging pilihan dengan ukuran yang besar membuat
+                anda kenyang dan lebih sabar
+              </p>
+            </div>
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--tutup modal taichan paha-->
   </body>
 </html>
