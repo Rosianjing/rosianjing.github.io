@@ -13,10 +13,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <img class="img-fluid" src="assets/images/bnr.png" alt="Chania" />
+    <br />
+    <br />
+    <img class="img-fluid" src="assets/images/bbnr.png" alt="Chania" />
     <!--navbar-->
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
       <!-- <a class="navbar-brand" href="#">RUMPI | 流矛頁慰</a> -->
 
       <button
@@ -35,10 +37,10 @@
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Reserve</a>
+            <a class="nav-link" href="reserve.html"> Reservation</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="AboutUs.html">About Us</a>
           </li>
         </ul>
       </div>
@@ -52,88 +54,556 @@
       <center><h1>Menu</h1></center>
 
       <div class="card-group">
-        <div class="card">
-          <div class="card-body text-center">
-            <center>
-              <img
-                src="assets/images/logotctrs.png"
-                width="50%"
-                height="50%"
-                alt=""
-              />
-            </center>
+        <!--coffee-->
 
-            <div class="card">
-              <div class="card-body text-center">
-                <p class="card-text"><b>Product Coffee</b></p>
-              </div>
-            </div>
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text text-center"><b>Coffee</b></p>
+            <hr width="50%" />
+            <br />
+            <ul class="list-group">
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Black Coffee
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#c1"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Americano
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#c2"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Coffee Rumpi
+                <span class="badge badge-secondary">Signature</span>
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#c3"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Coffee Secret
+                <span class="badge badge-secondary">Signature</span>
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#c4"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Cappucinno
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#c5"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Coffee Latte
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#c6"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Moccacinno
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#c7"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Vanilla Latte
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#c8"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Caramel Latte
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#c9"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Hazelnute Latte
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#c10"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Coffee Regal
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#c11"
+                >
+                  Detail
+                </button>
+              </li>
+            </ul>
           </div>
         </div>
+
+        <!--non coffee-->
+
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text text-center"><b>Non Coffee</b></p>
+            <hr width="50%" />
+            <br />
+            <ul class="list-group">
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Mojito Lemonade
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#nc1"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Mojito Lychee
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#nc2"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Orange Ice
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#nc3"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Lychee Ice
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#nc4"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Teh Tarik
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#nc5"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Milky Caramel
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#nc6"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Milky Hazelnute
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#nc7"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Milky Lychee
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#nc8"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Milky Rum regal
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#nc9"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Milky Chocolate
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#nc10"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Lava Chocolate
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#nc11"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Chocolate Hazelnute
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#nc12"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Cookies & Cream
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#nc13"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Matcha Latte
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#nc14"
+                >
+                  Detail
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!--meals-->
+
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text text-center"><b>Meals</b></p>
+            <hr width="50%" />
+            <br />
+            <ul class="list-group">
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Toasty Nasty
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#m1"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Hot Dog
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#m2"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Cireng
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#m3"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Otak-Otak
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#m4"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                French Fries
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#m5"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Sausage
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#m6"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Sobakar
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#m7"
+                >
+                  Detail
+                </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Fishroll
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn-sm"
+                  data-toggle="modal"
+                  data-target="#m8"
+                >
+                  Detail
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!--taichan-->
+
         <div class="card">
           <div class="card-body text-center">
-            <center>
-              <img
-                src="assets/images/logotctrs.png"
-                width="50%"
-                height="50%"
-                alt=""
-              />
-            </center>
-            <div class="card">
-              <div class="card-body text-center">
-                <p class="card-text"><b>Product Taichan</b></p>
-                <hr width="50%" />
-                <br />
+            <p class="card-text text-center"><b>Taichan</b></p>
+            <hr width="50%" />
+            <br />
+            <ul class="list-group">
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Taichan Paha
                 <button
                   type="button"
-                  class="btn btn-outline-light text-dark btn-block"
+                  class="btn btn-outline-dark btn-sm"
                   data-toggle="modal"
-                  data-target="#tcPaha"
+                  data-target="#tc1"
                 >
-                  Taichan Paha 20k
+                  Detail
                 </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Taichan Dada
                 <button
                   type="button"
-                  class="btn btn-outline-light text-dark btn-block"
+                  class="btn btn-outline-dark btn-sm"
                   data-toggle="modal"
-                  data-target="#tcPaha"
+                  data-target="#tc2"
                 >
-                  Taichan dada 20K
+                  Detail
                 </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Taichan Kulit
                 <button
                   type="button"
-                  class="btn btn-outline-light text-dark btn-block"
+                  class="btn btn-outline-dark btn-sm"
                   data-toggle="modal"
-                  data-target="#tcPaha"
+                  data-target="#tc3"
                 >
-                  Taichan kulit 20K
+                  Detail
                 </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Lontong
                 <button
                   type="button"
-                  class="btn btn-outline-light text-dark btn-block"
+                  class="btn btn-outline-dark btn-sm"
                   data-toggle="modal"
-                  data-target="#tcPaha"
+                  data-target="#tc4"
                 >
-                  Taichan + lontong 25K
+                  Detail
                 </button>
+              </li>
+              <li
+                class="list-group-item d-flex justify-content-between align-items-center"
+              >
+                Taichan + Lontong
                 <button
                   type="button"
-                  class="btn btn-outline-light text-dark btn-block"
+                  class="btn btn-outline-dark btn-sm"
                   data-toggle="modal"
-                  data-target="#tcPaha"
+                  data-target="#tc5"
                 >
-                  Lontong 2k
+                  Detail
                 </button>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
 
     <!-- tutup Menu-->
-
+    <br />
+    <br />
+    <br />
     <!--about us-->
 
     <div class="container-fluid mt-2">
@@ -165,38 +635,1069 @@
 
     <!--tutup Footer-->
 
-    <!--modal taichan paha-->
+    <!--Modal-->
 
-    <!-- The Modal -->
-    <div class="modal" id="tcPaha">
+    <!--Coffee-->
+    <div class="modal" id="c1">
       <div class="modal-dialog">
         <div class="modal-content">
-          <!-- Modal Header -->
           <div class="modal-header">
-            <h4 class="modal-title">Taichan Paha</h4>
+            <h4>Black Coffee</h4>
             <button type="button" class="close" data-dismiss="modal">
               &times;
             </button>
           </div>
-
-          <!-- Modal body -->
           <div class="modal-body">
             <img
-              class="img-fluid"
-              src="assets/images/tcsld1.jpg"
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu coffe/blackcoffee.jpg"
               alt="Chania"
             />
-            <div class="card-body text-center">
+            <div class="card-body text-justify">
               <p>
-                Di buat dengan daging pilihan dengan ukuran yang besar membuat
-                anda kenyang dan lebih sabar
+                Merupakan hasil ektraksi langsung dari perebusan biji kopi yang
+                sudah menjadi powder coffee kemudian disajikan tanpa penambahan
+                bahan apapun.
               </p>
+              <footer class="blockquote-footer">Price : 10k</footer>
+              <footer class="blockquote-footer">Available : Hot</footer>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!--tutup modal taichan paha-->
+    <div class="modal" id="c2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Americano</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu coffe/americano.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Americano tentu adalah kopi hitam yang berasal dari Amerika yg
+                lebih nikmat di padukan dengan ice
+              </p>
+              <footer class="blockquote-footer">Price : 13k</footer>
+              <footer class="blockquote-footer">Available : Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="c3">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>
+              Coffee Rumpi <span class="badge badge-secondary">Signature</span>
+            </h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu coffe/cofferumpi.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Adalah minuman signature Rumpi/Talk yg berbasis kopi gula aren
+                yg memiliki racikan khusus yg berbeda dari kedai kopi lain nya,
+                enak banget sumpah gaboong
+              </p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+              <footer class="blockquote-footer">Available : Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="c4">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>
+              Coffee Secret <span class="badge badge-secondary">Signature</span>
+            </h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu coffe/coffeesecret.jpeg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Coffee secret adalah minuman signature ke dua dari Rumpi/Talk
+                yang mempunyai resep rahasia, kepo dengan rasanya? Cobain dong
+              </p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+              <footer class="blockquote-footer">Available : Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="c5">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Cappuccino</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu coffe/capucino.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Cappuccino merupakan kopi yang populer dari Italia karena lebih
+                sering dan lebih banyak dikonsumsi. Rasanya yang tidak terlalu
+                pahit seperti espresso, membuat cappuccino lebih mudah diterima
+                oleh lidah semua orang khususnya kalangan muda
+              </p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+              <footer class="blockquote-footer">Available : Hot/Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="c6">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Caffee Latte</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu coffe/latte.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Menu ini menjadi pilihan bagi yang tak terlalu suka kopi asli
+                dengan karakter yang sangat kuat. Ada campuran lebih banyak susu
+                yang membuatnya sedikit lebih soft di lidah
+              </p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+              <footer class="blockquote-footer">Available : Hot/Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="c7">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Moccacinno</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu coffe/moccacino.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Moccacino merupakan minuman yang terdiri dari bahan berupa susu,
+                kopi dan cokelat. Kopi yang digunakan biasanya
+                jenis espresso yaitu kopi hitam. Kemudian dikombinasikan dengan
+                cokelat bubuk
+              </p>
+              <footer class="blockquote-footer">Price : 18k</footer>
+              <footer class="blockquote-footer">Available : Hot/Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="c8">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Vanilla Latte</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu coffe/vanillalatte.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Adalah kombinasi pahit espresso short serta creamy susu dan
+                sirup vanilla menjadikan Vanilla Latte minuman yang sempurna
+              </p>
+              <footer class="blockquote-footer">Price : 18k</footer>
+              <footer class="blockquote-footer">Available : Hot/Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="c9">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Caramel Latte</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu coffe/caramellatte.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Kombinasi pahit espresso short serta creamy susu dan sirup
+                caramell menjadikan Caramel Latte minuman yang jadi pilihan
+                untuk orang yang tidak suka pahit espresso
+              </p>
+              <footer class="blockquote-footer">Price : 18k</footer>
+              <footer class="blockquote-footer">Available : Hot/Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="c10">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Hazelnute Latte</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu coffe/hazellatte.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Kombinasi pahit espresso short serta creamy susu dan sirup
+                Hazelnute menjadi kan menu ini sebagai pilihan bagi yang tak
+                terlalu suka kopi asli dengan karakter yang sangat kuat
+              </p>
+              <footer class="blockquote-footer">Price : 18k</footer>
+              <footer class="blockquote-footer">Available : Hot/Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="c11">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Coffee Regal</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu coffe/cofferegal.jpeg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Seperti namanya, kopi susu jenis ini menggunakan biskuit Marie
+                Regal dan membuat cita rasa perpaduan manis dan pahit kopi
+                dengan crunchy nya biskuit regal sehingga menimbulkan rasa yg
+                unik
+              </p>
+              <footer class="blockquote-footer">Price : 18k</footer>
+              <footer class="blockquote-footer">Available : Hot/Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--tutup Coffee-->
+
+    <!--non coffee-->
+    <div class="modal" id="nc1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Mojito Lemonade</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu non coffe/mojito.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Mojito lemonade adalah minuman koktail tradisional khas Kuba.
+                Minuman ini adalah minuman soda yg menyegarkan dengan campuran
+                lemon dan soda yg menimbulkan rasa luar biasa (tapi disini sudah
+                di modifikasi ya jadi halal)
+              </p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+              <footer class="blockquote-footer">Available : Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="nc2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Mojito Lychee</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu non coffe/mojitoleci.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Mojito lychee sama seperti mojito lemonade tetapi memiliki
+                perbedaan dalam kadar rasa yaitu penambahan sirup lychee yg
+                membuat mojito lychee memiliki rasa yg sedikit lebih manis di
+                banding mojito lemonade
+              </p>
+              <footer class="blockquote-footer">Price : 17k</footer>
+              <footer class="blockquote-footer">Available : Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="nc3">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Orange Ice</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu non coffe/orangeaice.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Minuman ini adalah kombinasi syrup Orange dengan susu fermentasi
+                yg menyegarkan memberikan sensasi yg fantastis !!!!
+              </p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+              <footer class="blockquote-footer">Available : Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="nc4">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Lychee Ice</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu non coffe/LECIice.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Sama seperti Orange ice tetapi memiliki rasa lychee yang manis
+                dan segar, ga kalah pokok nya !!!!
+              </p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+              <footer class="blockquote-footer">Available : Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="nc5">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Teh Tarik</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu non coffe/tehtarik.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Teh tarik adalah minuman manis berupa campuran teh dan susu yang
+                lazim ditemukan di daerah Asia Tenggara
+              </p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+              <footer class="blockquote-footer">Available : Hot/Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="nc6">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Milky Caramel</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu non coffe/milky caramel.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Perpaduan susu dan syrup caramel yg menghasil kan rasa yg
+                sederhana tapi memiliki banyak makna
+              </p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+              <footer class="blockquote-footer">Available : Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="nc7">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Milky Hazelnute</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu non coffe/hazelmilky.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Perpaduan susu dan syrup hazelnute yg manis Semanis dia yg sudah
+                menjadi kenangan di masa lampau
+              </p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+              <footer class="blockquote-footer">Available : Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="nc8">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Milky Lychee</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu non coffe/milkyleci.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Milky lychee memiliki rasa yg unik yaitu perpaduan susu dan buah
+                lychee sehingga menjadi sebuah rasa yg sulit di hilangkan
+              </p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+              <footer class="blockquote-footer">Available : Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="nc9">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Milky Rum Regal</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu non coffe/milkyrumregal.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Memiliki karakteristik yg unik manis dan renyah, banyak diminati
+                tetapi sulit dimiliki
+              </p>
+              <footer class="blockquote-footer">Price : 18k</footer>
+              <footer class="blockquote-footer">Available : Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="nc10">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Milky Chocolate</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu non coffe/milkychoco.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Perpaduan susu dan nikmat nya chocolate manis seakan membawa
+                kita ke masa lalu dan mengingatkan manis nya kenangan bersama
+                dia
+              </p>
+              <footer class="blockquote-footer">Price : 18k</footer>
+              <footer class="blockquote-footer">Available : Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="nc11">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Lava Chocolate</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu non coffe/lavachoco.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Minuman coklat yg mempunyai rasa murni chocolate, semurni hatimu
+                selembut sikap mu dan seindah senyum mu
+              </p>
+              <footer class="blockquote-footer">Price : 18k</footer>
+              <footer class="blockquote-footer">Available : Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="nc12">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Chocolate hazelnute</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu non coffe/chocohazel.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Perpaduan susu chocolate dan syrup hazelnut menjadi kan
+                perpaduan rasa yg mudah diterima tapi sulit dilupakan
+              </p>
+              <footer class="blockquote-footer">Price : 18k</footer>
+              <footer class="blockquote-footer">Available : Hot/Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="nc13">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Cookies & Cream</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu non coffe/cookiesandcream.png"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Perpaduan susu dan renyah nya biskuit Oreo yg sangat lezat,
+                membuat kita seakan terbang lalu di hempas kan dan menimbulkan
+                luka yg amat terdala
+              </p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+              <footer class="blockquote-footer">Available : Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="nc14">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Matcha Latte</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu non coffe/matchalatte.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Nikmat nya susu dan matcha yg menjadi satu melebur di dalam
+                semesta seakan dunia milik berdua (yg lain ngontrak)
+              </p>
+              <footer class="blockquote-footer">Price : 18k</footer>
+              <footer class="blockquote-footer">Available : Hot/Ice</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--tutup non Coffee-->
+
+    <!--Meals-->
+    <div class="modal" id="m1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Toasty Nasty</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu meals/toats.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Roti panggang yg di padukan dengan irisan daging sapi yg tebal,
+                dan telur dadar yg nikmat serta di lengkapi selada serta saus
+                rahasia yg mampu mengisi perut anda serta mewarnai hari hari
+                bersama nya
+              </p>
+              <footer class="blockquote-footer">Price : 18k</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="m2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Hot Dog</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu meals/hotdog.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Nikmat nya roti dan dipadukan dengan sausage yg besar dan
+                memuaskan di tambah dengan saus keju yg pecah di mulut
+              </p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="m3">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Cireng</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu meals/cireng.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Makanan khas Indonesia yg gurih renyah serta nikmak, sangat
+                cocok untuk menemani dikala sendu dan akan terpecah kan oleh
+                gigitan renyah nya cireng
+              </p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="m4">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Otak-Otak</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu meals/otakotak.jpeg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Otak otak merupakn makan yg nikmat dari bahan terbaik, diambil
+                dari laut terdalam sedalam kasih dan cinta kaula para muda mudi
+              </p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="m5">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>French Fries</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu meals/kentang.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>
+                Kentang goreng yg renyah gurih dan lezat membuat semangat akan
+                menjalani hidup kembali, apalagi jika harus menjalani hidup
+                untuk nya
+              </p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="m6">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Sausage</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu meals/sosis.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>let's burn the sausage!</p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="m7">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Sobakar</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu meals/baso.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>short for "bakso bakar".6pcs</p>
+              <footer class="blockquote-footer">Price : 16k</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="m8">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Matcha Latte</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu meals/fishroll.jpg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>5 pcs of fishroll</p>
+              <footer class="blockquote-footer">Price : 15k</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--tutup meals-->
+
+    <!--taichan-->
+    <div class="modal" id="tc1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Taichan Paha</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu taichan/paha.jpeg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>Release</p>
+              <footer class="blockquote-footer">Price : 20k</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="tc2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Taichan Dada</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu taichan/paha.jpeg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>Release</p>
+              <footer class="blockquote-footer">Price : 20k</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="tc3">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Taichan Kulit</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu taichan/kulit.jpeg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>Release</p>
+              <footer class="blockquote-footer">Price : 20k</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="tc4">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Lontong</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu taichan/lontong.jpeg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>Release</p>
+              <footer class="blockquote-footer">Price : 2k</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="tc5">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Taichan Paha</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <img
+              class="img-fluid mx-auto d-block"
+              src="assets/images/menu taichan/lontongnasi.jpeg"
+              alt="Chania"
+            />
+            <div class="card-body text-justify">
+              <p>Release</p>
+              <footer class="blockquote-footer">Price : 25k</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--tutup taichan-->
+
+    <!--tutup modal-->
   </body>
 </html>
